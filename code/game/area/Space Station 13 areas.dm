@@ -1191,6 +1191,10 @@ var/list/ghostteleportlocs = list()
 	name = "\improper Medical Treatment Center"
 	icon_state = "exam_room"
 
+/area/medical/cellular_suspension
+	name = "\improper Cellular Suspension Lab"
+	icon_state = "cryo"
+
 //Security
 /area/security/main
 	name = "\improper Security Office"
@@ -1376,6 +1380,10 @@ var/list/ghostteleportlocs = list()
 /area/toxins/server
 	name = "\improper Server Room"
 	icon_state = "server"
+
+/area/toxins/hallway_med
+	name = "\improper MedSci Hallway"
+	icon_state = "medresearch"
 
 //Storage
 /area/storage/tools
